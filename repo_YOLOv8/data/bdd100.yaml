@@ -1,0 +1,9 @@
+train: ./data/bdd_train.txt  # 70000 images
+val: ./data/bdd_val.txt  # 10000 images
+test: ./data/bdd_test.txt  # 20000 images
+
+# number of classes
+nc: 10
+
+# class names
+names: ['pedestrian', 'rider', 'car', 'truck', 'bus', 'train', 'motorcycle', 'bicycle', 'traffic light', 'traffic sign']
